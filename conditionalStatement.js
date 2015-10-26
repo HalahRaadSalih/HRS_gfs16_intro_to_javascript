@@ -1,10 +1,13 @@
 
-var someArry = [];
+var someArry = ['hala', 'lissa', 'hdhdvv', 'kjbejh', 'h3gy3gr3yg'];
+var arrayLen = someArry.length;
+var peopleToBook = 5;
 
-if (someArry.length >= 5){
+if (arrayLen >= peopleToBook){
 	console.log('your reservation has been booked');
 }
 
 else{
-	console.log('you need' + (5 - someArry.length) + 'of people to book a reservation');
+	var peopleNeededToBook = peopleToBook - arrayLen;
+	console.log('you need ' + (peopleNeededToBook + 'of people to book a reservation');
 }
