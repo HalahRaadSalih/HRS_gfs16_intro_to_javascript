@@ -15,10 +15,12 @@ var person = {  firstName: "Halah",
 console.log(person.firstName);
 console.log(person.lastName);
 
-person.first_name="jseffehefu";
-person.last_name = "i487837";
+person.first_name= person.firstName;
+person.last_name = person.lastName;
 
 console.log(person);
 
-delete person.email;
+delete person.firstName;
+delete person.lastName;
+
 console.log(person);
